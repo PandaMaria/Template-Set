@@ -123,18 +123,18 @@ public:
 
 int main()
 {
-    set<char> a;
-    a.add('m');
-    a.add('r');
-    a.add('c');
-    cout << a;
-    a.deleteEl('c');
-    cout << a;
-    cout << a.exist('r') <<' '<< a.exist('s') << endl;
-    set<int> b;
+    set<char> cuv;
+    cuv.add('m');
+    cuv.add('r');
+    cuv.add('c');
+    cout << cuv;
+    cuv.deleteEl('c');
+    cout << cuv;
+    cout << cuv.exist('r') <<' '<< cuv.exist('s') << endl;
+    set<int> sir;
     for (int i = 0; i < 5; i++)
-        b.add(i);
-    cout << b;
-    b.deleteEl(3);
-    cout << b;
+        sir.add(i);
+    cout << sir;
+    sir.deleteEl(3);
+    cout << sir;
 }
